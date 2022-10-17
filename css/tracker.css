@@ -86,7 +86,9 @@ span {
 }
 
 #mturk-top-banner-drop-down-content {
-    position: absolute;
+    /*position: absolute;
+    */
+    position:sticky;
     width: 100%;
     top: 43px;
     left: 0;
@@ -146,7 +148,9 @@ span {
     height: 0.1px;
     opacity: 0;
     overflow: hidden;
-    position: absolute;
+    /*position: absolute;
+    */
+    position: sticky;
     z-index: -1;
 }
 
@@ -231,3 +235,4 @@ span {
     height: 90%;
     width: 90%;
 }
+
